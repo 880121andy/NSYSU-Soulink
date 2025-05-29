@@ -71,7 +71,7 @@ def handle_message(event):
           reply = LocationMessage(title="中山諮商中心",address="804高雄市鼓山區中山大學行政大樓5001",latitude=22.62611651661031, longitude=120.26617734788009)
         elif action == '諮商':
            button_template = ButtonsTemplate(
-            thumbnail_image_url='',
+            thumbnail_image_url='https://scontent.fkhh5-1.fna.fbcdn.net/v/t39.30808-6/334715185_2492104864263508_3601572578353383786_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ekGSa41Le1MQ7kNvwG_cfJZ&_nc_oc=AdmEHhLxJBdx9eNUA6Bw7-fIlyLtjpFJFDKik3AidvXbCM-PU09iJG10ey62_9slp8A&_nc_zt=23&_nc_ht=scontent.fkhh5-1.fna&_nc_gid=6SmmIfIJX17_AP74UMJA2w&oh=00_AfJRNH-MgwvNnz6DVf1pnFk3R6hsJtnd_BDyBUdKlReKqw&oe=683E5630',
             title="中山大學諮商資訊",
             text="行政大樓5樓",
             actions=[
